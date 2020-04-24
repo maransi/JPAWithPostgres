@@ -6,6 +6,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class Conta {
 // Alteração feita no Github
+// Alteração feita no Eclipse
+	
 	private Long id;
 	private String nomeCorrentista;
 	private Float saldo;
