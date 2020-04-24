@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS product;
+
+CREATE TABLE product(	id		SERIAL 	PRIMARY KEY,
+						name	VARCHAR(50) );
