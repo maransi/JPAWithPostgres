@@ -2,3 +2,10 @@ DROP TABLE IF EXISTS product;
 
 CREATE TABLE product(	id		SERIAL 	PRIMARY KEY,
 						name	VARCHAR(50) );
+						
+
+DROP TABLE IF EXISTS unit;
+
+CREATE TABLE unit(	id		SERIAL 	PRIMARY KEY,
+						name	VARCHAR(50) );
+
